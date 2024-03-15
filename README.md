@@ -2,8 +2,6 @@ A pen created on Vinishireis
 
 Title: OnDev-Beta_0.2
 ---
-OnDev Soluções em Tecnologia
----
 
 # OnDev
 
