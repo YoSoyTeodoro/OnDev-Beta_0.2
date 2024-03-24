@@ -33,7 +33,7 @@
       <div class="forms-container">
         <div class="signin-signup">
           <form action="#" class="sign-in-form">
-            <h2 class="title">Colaborador</h2>
+            <h2 class="title">Colaborador Pessoa Física</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
               <input type="text" placeholder="Email" />
@@ -63,16 +63,28 @@
             <h2 class="title">Cadastre-se</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" name="Razao_social" placeholder="Razão social" id="Razao_social" required/>
+              <input type="text" name="Nome_completo" placeholder="Nome completo" id="Nome_completo" required/>
             </div>
             <div class="input-field">
                 <i class="fas fa-list-numeric"></i>
-                <input type="number" name="CNPJ" placeholder="CNPJ" id="CNPJ" required />
+                <input type="number" name="CPF" placeholder="CPF" id="CPF" required />
             </div>
             <div class="input-field">
               <i class="fas fa-calendar"></i>
-              <input type="text" name="Inscricao_estadual" placeholder="Inscrição estadual" id="Inscricao_estadual" required />
+              <input type="date" name="Data_Nasc" placeholder="Data de nascimento" id="Data_Nasc" required />
             </div>
+            <!--=============== SEXO ===============-->
+            <p>Sexo:</p>
+            <div class="input-field">
+                <i class="fas fa-gender"></i>
+                <input type="radio" name="genero" id="feminino" value="feminino" required/>
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="masculino" value="masculino" required/>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="outros" value="outros" required/>
+                <label for="outros">Outros</label>
+            </div>
+
             <div class="input-field">
                 <i class="fas fa-map-location"></i>
                 <input type="number" name="CEP" placeholder="CEP" id="CEP" required/>
